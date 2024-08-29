@@ -1,0 +1,65 @@
+@media (max-width:768px) {
+
+  .header{
+    height: 60vh;
+  }
+  .navlinks ul{
+    display: none;
+  }
+
+  nav .fa{
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .Text-box{
+    margin: 3rem 3rem;
+  }
+
+  .second{
+    height: auto;
+
+  }
+
+  .second .row{
+    flex-direction: column;
+    padding-bottom: 80px;
+  }
+
+  .second .row .col-1{
+    padding: 20px 13px;
+   
+  
+  }
+
+  .col-2 .img img{
+    width: 90%;
+    margin-top: 10px;
+  }
+  
+
+  .five .contact{
+    flex-direction: column;
+  }
+ 
+
+
+  .contact .col-3 .form .box{
+  width: 90%;
+  }
+
+
+  .six .footer{
+    flex-direction: column;
+   
+  }
+
+  .six .footer .col-4{
+    padding: 2rem 0;
+  }
+}
+
+
+
+

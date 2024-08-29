@@ -1,0 +1,266 @@
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: whitesmoke;
+  
+}
+
+img{
+  cursor: pointer;
+}
+.header{
+  width: 100vw;
+  height: 80vh;
+  background: url(images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+
+
+nav{
+display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+text-transform: uppercase
+;}
+
+
+nav label{
+ font-size: large;
+}
+
+.navlinks{
+  flex: 1;
+  /* it will occupy all the space in the row */
+  text-align: right;
+}
+
+.navlinks ul li{
+  display: inline-block;
+  /* it will make the list horizontal */
+  padding:8px;
+  position: relative;
+}
+
+.navlinks ul li a{
+  font-size: large;
+}
+
+
+nav ul li::after{
+  content: '';
+  width: 0%;
+  height:4px;
+  background: #f44336;
+  display: block;
+  margin: 0;
+  transition: .5s;
+}
+
+nav ul li:hover::after{
+  width: 100%;
+}
+
+nav a, .fa-solid{
+  color: white;
+}
+
+
+.Text-box{
+  display: block;
+  text-align: center;
+  margin:10rem 5rem;
+}
+
+.Text-box h1,h2,h3{
+  line-height: 40px;
+}
+
+
+
+.Text-box h1{
+font-size: 2rem;
+margin-bottom: 5px;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid whitesmoke;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor:pointer;
+  margin: 20px;
+
+}
+
+nav .fa{
+  display: none;
+}
+
+.btn:hover{
+  background: whitesmoke;
+  color: black;
+}
+
+
+.second{
+  width: 100%;
+  height: 50vh;
+  background: url(images/us-bg.jpg);
+  background-size: cover;
+ background-position: center;
+ 
+}
+
+.heading{
+  padding: 4rem;
+  text-align: center;
+  /* position: relative; */
+}
+
+
+
+.heading::after{
+  content: '';
+  width: 30px;
+  height:4px;
+  background: #f44336;
+  display: block;
+  margin: 0;
+  position: relative;
+  left: 50%;
+}
+
+
+.row{
+  display: flex;
+  text-align: center;
+}
+
+.row .col-1{
+  flex-basis: 25%;
+  margin: 10px 20px;
+  /* padding: 5px; */
+}
+
+.row .col-1 h1{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.three{
+  width: 100%;
+  height: auto;
+  background: url(images/healthy-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 3rem;
+  text-align: center;
+  position: relative;
+}
+
+.three h1{
+  margin: 20px auto;
+}
+
+.four{
+  width: 100%;
+  margin: auto;
+  background: url(images/trainer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.four .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0 2rem;
+}
+
+.row .col-2{
+  flex: 1 1 25rem;
+  position:relative;
+ 
+}
+
+.col-2 .img img{
+  width: 100%;
+  border-radius: .5rem;
+  margin-top: 10px;
+}
+
+.col-2 .logo {
+  background: white;
+  width: 13rem;
+  height: 3rem;
+  border-radius: 1rem;
+  margin:auto;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+}
+
+.row .col-2 .logo img{
+  display: inline-block;
+  padding: 10px  10px;}
+
+.five{
+  width: 100%;
+  height: auto;
+  background-color: rgb(56, 56, 106);
+}
+
+.five .contact{
+  display: flex;
+}
+
+
+.five .contact .col-3{
+  flex-basis: 50%;
+}
+
+.contact .col-3 img{
+  width: 100%;
+  height: 100%;
+}
+.contact .col-3 .form{
+display: block;
+}
+
+.contact .col-3 .box{
+  width: 70%;
+  margin: 5px 20px;
+  padding: 20px;
+  border-radius: .5rem;
+  text-transform: capitalize;
+
+}
+
+
+
+.six{
+  width: 100%;
+  height: auto;
+  background-color: rgb(25, 25, 66);
+}
+
+
+.six .footer{
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
